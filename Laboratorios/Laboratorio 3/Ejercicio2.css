@@ -1,20 +1,87 @@
 @charset "utf-8";
 /* CSS Document */
-div{
-	border: 1px solid rgba(0,0,0,1.00);
+h1{
+	color: white;
+}
+.ti{
+	color: black;
+}
+.back{
+		background-image: url("p.jfif");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .main{
 	 display: flex;
-    flex-direction: row;
+    flex-direction: column;
 	align-items: center;
+	justify-content: space-around;
+	height: 170px;
+}
+.icon{
+	display: flex;
+	flex-direction: row;
 	justify-content: center;
+	height: 200px;
+}
+img{
+	margin: 30px;
+	height: 50px;
 }
 .head{
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: flex-start;
+	align-items: center;
+	height: 50px;
 }
 .foot{
-	
+		display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 50px;
 }
+input{
+	
+	height: 60%;
+	border-radius: 10px;
+	margin: 5px;
+}
+.a{
+	color: white;
+	background-color: gray;
+}
+.b{
 
+	color: white;
+	background-color: gray;
+}
+.c{
+		color: white;
+	background-color: purple;
+}
+.d{
+		color: white;
+	background-color: blue;
+}
+.e{
+		color: white;
+	background-color: red;
+}
+label{
+	border: 1px solid white;
+	width: 700px;
+	height: 2px;
+	background-color: wheat;
+}
+input:hover{
+	background-color: aqua;
+}
+label:hover{
+	background-color: black;
+	border-color: black;
+}
+h1:hover,.ti:hover{
+	color: red;
+}
