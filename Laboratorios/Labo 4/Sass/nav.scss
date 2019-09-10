@@ -1,0 +1,21 @@
+/* Scss Document */
+
+.head{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	align-items: center;
+	height: 50px;
+}
+.c{
+		color: white;
+	background-color: purple;
+}
+.d{
+		color: white;
+	background-color: blue;
+}
+.e{
+		color: white;
+	background-color: red;
+}
